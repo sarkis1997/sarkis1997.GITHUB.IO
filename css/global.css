@@ -1,57 +1,121 @@
-svg {
-    overflow: inherit;
+@font-face {
+    font-family: 'ZillaSlab';
+    src:  url('../fonts/ZillaSlab-Medium.ttf');
+    src:  url('../fonts/ZillaSlab-Bold.ttf');
+    src:  url('../fonts/ZillaSlab-Bolditalic.ttf');
+    src:  url('../fonts/ZillaSlab-Light.ttf');
+    src:  url('../fonts/ZillaSlab-SemiBold.ttf');
+    src:  url('../fonts/ZillaSlab-Medium.ttf');
 }
 
-#layOut {
+body {
+    font-family: 'ZillaSlab', Fallback, sans-serif;
+}
+body {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    font-family: 'ZillaSlab', Fallback, sans-serif;
+
+}
+
+#framework {
+    margin-top: 2em;
+    z-index: 999;
+}
+
+#app {
+    margin-top: 2em;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 20% 80%;
 }
 
-.sidebar {
+#slideFilter {
     grid-column: 2;
-    background: red;
-    height: 67em;
-    padding: 3em;
 }
 
+#countZorgBedrijven {
+    text-align: center;
+}
 
-.legenda {
-    padding: 5em 0 0 0;
+path {
+    color: transparent;
+}
+
+#viz-holder svg {
+    display: block;
     margin: 0 auto;
+}
+
+#viz-holder svg:active {
+    cursor: grabbing;
+}
+.titleSection {
     display: flex;
-    justify-content: space-between;
-    width: max-content;
+    justify-content: center;
+}
+.titleSection h3 {
+    font-weight: 700;
+    margin: 0;
 }
 
-.legenda > div {
-    width: 8em;
-    height: 4em;
+#selectYear {
+    margin-left: 0.1em;
+    background: none;
+    border: none;
+    color: #7f6ddd;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.filterSection {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.filterSection > div {
+    margin: 0 1em;
+}
+
+#map-holder > svg {
+    padding: 3em 1em 1em 1em;
+    overflow: visible;
+}
+
+#slider-container {
+    position: relative;
+    height:30px;
+    background-color: #eeeef5;
+    margin: 0 auto;
+    width: 67%;
+}
+
+#range-label {
     text-align: center;
-    line-height: 4;
-    margin: 0 0.5em;
 }
 
-.legenda > div > span {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 3px;
+.tooltip {
+    cursor: pointer;
 }
 
-.legenda > div:nth-of-type(1) {
-    background: #c74032;
+#countZorgBedrijven {
+    margin: auto;
 }
-.legenda > div:nth-of-type(2) {
-    background: #e4744f;
+.amountContainer {
+    font-size: 60px;
 }
-.legenda > div:nth-of-type(3) {
-    background: #fae096;
-}
-.legenda > div:nth-of-type(4) {
-    background: #b1d678;
-}
-.legenda > div:nth-of-type(5) {
-    background: #489558;
+.amountContainer span {
+    font-size: 20px;
 }
 
-.titles {
-    text-align: center;
+#searchInput {
+    background-color: #f2f2f2
+}
+
+g text, g line {
+    color: rgba(29, 40, 57, 0.5);
 }
