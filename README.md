@@ -61,5 +61,14 @@ In deze applicatie wordt de volgende specifieke data gebruikt:
 * Winstpercentage
 * Jaar
 
+## Data opschoning
+Zoals gewoonlijk, kan je niet klakkeloos uitgaan dat een dataset helemaal correct is.<br>
+Tijdens het exploreren zijn we erachter gekomen dat sommige data niet klopt.<br>
+Nadat de data wordt ingelezen, wordt iedere zorginstelling gecheckt op winst, omzet en winstpercentage.<br>
+Wij hebben voor de winst een maximum grens gesteld van 80%.<br>
+Voor de omzet hebben wij een minimum grens gesteld van €0,-, omdat het niet logisch is om een negatief omzetresultaat te behalen.<br>
+De winstpercentage, winst en omzet worden ook nog eens gecheckt op de waardes wel of geen nummer zijn.<br>
+Bij een van bovenstaande opsporingen wordt de zorginstelling uit de dataset verwijderd.
+
 ## License
 <a href="https://github.com/sarkis1997/sarkis1997.GITHUB.IO/blob/master/LICENSE">MIT</a> @ Sarkis Moeradjan
