@@ -2,18 +2,34 @@
 
 <img src="https://github.com/sarkis1997/sarkis1997.GITHUB.IO/blob/master/media/scrhome.png">
 
-## Requirements
-* Know how to use your terminal
-* Code Editor
+## bugs
+* Wisselen naar 'per zorgsector' weergave werkt nog niet
+* Deep Dive (klikken op zorginstellingen) heeft nog geen datavisualisatie
+* Mobiele versie is niet beschikaar
 
-## How to install?
-1. Run the terminal
-2. `git clone https://github.com/sarkis1997/frontend-applications`
-3. Open the complete file in your code editor of choice.
-5. `npm i` or `npm install`.
-6. `npm run dev` to start the local development server.
-    * the app will rebuild everytime you make a change.
-7. browse to `localhost:5000` in your browser.
+## Opzet project
+De applicatie is gebouwd zonder framework met html, css en js, maar heeft wel iets weg van een framework.<br>
+De structuur is opgedeeld zoals de meeste frameworks. De basis van het project is opgedeeld als volgt: 
+
+* index.html
+* js
+* css
+
+De map js bestaat uit:
+* app.js
+* modules map
+* utils map
+
+App.js wordt aangeroepen in index.html, waarop vervolgens app.js verschillende utils en modules gebruikt om de app te draaien.
+
+Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFonseca/d3RangeSlider/blob/master/d3RangeSlider.js">d3RangeSlider.js</a>
+
+
+## Installatie
+1. Run de command line
+2. `git clone https://github.com/sarkis1997/sarkis1997.GITHUB.IO/`
+3. Open het project en sleep index.html naar je browser
+
 
 ## What is this project about?
 This project is about to get more attention of younger people for the 'Nationaal Museum van Wereldculturen' (NMVW).
