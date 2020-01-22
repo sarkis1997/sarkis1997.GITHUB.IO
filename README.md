@@ -2,7 +2,17 @@
 
 <img src="https://github.com/sarkis1997/sarkis1997.GITHUB.IO/blob/master/media/scrhome.png">
 
-## functies
+## Doel van de app
+Bij 97 grote zorgbedrijven is in 2017 voor ruim vijftig miljoen euro aan winst gemaakt. Dat komt
+neer op ruim twintig procent van de omzet, terwijl hooguit drie procent gangbaar is binnen
+de geestelijke gezondheidszorg, gehandicaptenzorg, en thuiszorg. Mogelijk zijn deze winsten
+onrechtmatig tot stand gekomen. De jaarrekeningen van deze instellingen worden zelden
+gecontroleerd, waardoor aandeelhouders voor miljoenen euro’s aan zorggeld aan zichzelf kunnen
+uitkeren.
+
+Met deze datavisualisatie willen wij de zorgsectoren die vermoedelijk frauderen in kaart brengen.
+
+## Functies
 * Wisselen per jaar
 * Wisselen tussen alle zorgsectoren en weergave per zorgsector (IN ONTWIKKELING)
 * Live zoekfunctie
@@ -12,7 +22,7 @@
 * Klikbare legenda filter
 * Range Slider
 
-## bugs
+## Bugs
 * Wisselen naar 'per zorgsector' weergave werkt nog niet
 * Deep Dive (klikken op zorginstellingen) heeft nog geen datavisualisatie
 * Mobiele versie is niet beschikaar
