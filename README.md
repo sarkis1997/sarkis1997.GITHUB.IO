@@ -22,7 +22,7 @@ De map js bestaat uit:
 
 App.js wordt aangeroepen in index.html, waarop vervolgens app.js verschillende utils en modules gebruikt om de app te draaien.
 
-Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFonseca/d3RangeSlider/blob/master/d3RangeSlider.js" "target="_blank">d3RangeSlider.js</a>
+Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFonseca/d3RangeSlider/blob/master/d3RangeSlider.js" target="_blank">d3RangeSlider.js</a>
 
 
 ## Installatie
