@@ -3,17 +3,6 @@ import { scatterPlotPer } from "./utils/createScatterPlotPer.js";
 
 d3.json("datasets/dataset.json")
 	.then(function (data) {
-		data.forEach(function (item ,i) {
-			if( (item.perc_winst > 80) ||
-				(isNaN(item.perc_winst)) ||
-				isNaN(item.omzet) ||
-				isNaN(item.winst) ) {
-				data.splice(i, 1)
-			}
-		});
-		return data
-	})
-	.then(function (data) {
 		let j2011 = [], j2012 = [], j2013 = [], j2014 = [], j2015 = [], j2016 = [], j2017 = [], j2018 = [];
 		data.map(item => {
 			switch (item.jaar) {
