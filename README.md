@@ -22,7 +22,7 @@ De map js bestaat uit:
 
 App.js wordt aangeroepen in index.html, waarop vervolgens app.js verschillende utils en modules gebruikt om de app te draaien.
 
-Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFonseca/d3RangeSlider/blob/master/d3RangeSlider.js" target="_blank">d3RangeSlider.js</a>
+Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFonseca/d3RangeSlider/blob/master/d3RangeSlider.js">d3RangeSlider.js</a>
 
 
 ## Installatie
@@ -30,19 +30,16 @@ Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFons
 2. `git clone https://github.com/sarkis1997/sarkis1997.GITHUB.IO/`
 3. Open het project en sleep index.html naar je browser
 
+## functies
+* Wisselen per jaar
+* Wisselen tussen alle zorgsectoren en weergave per zorgsector (IN ONTWIKKELING)
+* Live zoekfunctie
+* Weergave aantal zorginstellingen per jaar
+* Hover per zorgintelling
+* Klik per zorginstelling (IN ONTWIKKELING)
+* Klikbare legenda filter
+* Range Slider omzet
 
-## What is this project about?
-This project is about to get more attention of younger people for the 'Nationaal Museum van Wereldculturen' (NMVW).
-
-### but how?
-I had the idea to create a 'social media' lookalike app where the user can scroll through.
-The focus of the app is on slavery.
-I wanted to give the users an idea and feeling of slavery by showing all kind of items that were related to slavery.
-By showing the images, titles, descriptions and the periods of introduce I'll try to make a timeline in which the items will be showed from past to present. 
-At the bottom of the page, there will be images showed of slavery during the period of that product to make an extra impression.
-
-## Features
-Scroll through the timeline
 
 ## API
 The API is a dataset of around 700.000 objects of the NMVW. 
