@@ -38,7 +38,7 @@ Het project is afhankelijk van 1 library, <a href="https://github.com/RasmusFons
 * Hover per zorgintelling
 * Klik per zorginstelling (IN ONTWIKKELING)
 * Klikbare legenda filter
-* Range Slider omzet
+* Range Slider
 
 
 ## API
