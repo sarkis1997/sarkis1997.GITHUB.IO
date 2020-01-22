@@ -52,4 +52,4 @@ In deze applicatie wordt de volgende specifieke data gebruikt:
 * Jaar
 
 ## License
-<a href="https://github.com/sarkis1997/sarkis1997.GITHUB.IO/blob/master/LICENSE</a> @ Sarkis Moeradjan
+<a href="https://github.com/sarkis1997/sarkis1997.GITHUB.IO/blob/master/LICENSE">MIT</a> @ Sarkis Moeradjan
