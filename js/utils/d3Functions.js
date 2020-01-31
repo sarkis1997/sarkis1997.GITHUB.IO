@@ -19,6 +19,7 @@ export async function createFramework() {
 			return a + b;
 		})
 	};
+
 	dataComplete.qty = objectsSum(objectsAmount);
 
 
@@ -259,7 +260,8 @@ export async function createFramework() {
 	}
 
 	//reset function
-	document.getElementById('reset').onclick = function () {
+	d3.select('#reset')
+		.on('click', () => {
 		nodes = [dataComplete];
 		dataComplete.children[0].map(item => { nodes.push((item)) });
 
@@ -275,6 +277,6 @@ export async function createFramework() {
 			);
 
 		restart()
-	}
+	})
 
 }
